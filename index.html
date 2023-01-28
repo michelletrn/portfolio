@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>michelle tran</title>
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="./assets/style.css" />
+    <!-- icon stylesheet -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;1,100;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="navbar-container">
+      <img
+        id="profile"
+        src="https://via.placeholder.com/150"
+        alt="placeholder img"
+      />
+      <a href="#" id="name">michelle tran</a>
+      <ul class="navbar-list">
+        <li>
+          <a class="link" href="#home">
+            <span><i class="bx bx-home"></i></span>
+            home</a
+          >
+        </li>
+        <li>
+          <a class="link" href="#about">
+            <span><i class="bx bx-user"></i></span> About</a
+          >
+        </li>
+        <li>
+          <a class="link" href="#projects">
+            <span><i class="bx bx-spreadsheet"></i></span> Projects</a
+          >
+        </li>
+        <li>
+          <a class="link" href="#contact">
+            <span><i class="bx bx-envelope"></i></span> Contact</a
+          >
+        </li>
+        <li>
+          <!-- this pdf does not exist, make sure to add -->
+          <button class="resume" onclick="location.href='assets/resume.pdf'">
+            Resume
+          </button>
+        </li>
+      </ul>
+      <div class="bx bx-menu" id="mobile-menu"></div>
+    </header>
+    <!-- Home section -->
+    <section class="home" id="home">
+      <div class="home-greeting">
+        <p><span id="hello">Hello, </span> my name is</p>
+        <h1>Michelle</h1>
+        <h3>I'm a <span id="title">full-stack developer.</span></h3>
+      </div>
+    </section>
+
+    <script src="./assets/script.js"></script>
+  </body>
+</html>

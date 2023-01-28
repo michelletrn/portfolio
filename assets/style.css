@@ -1,0 +1,137 @@
+* {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --navy: #192a44;
+  --drk-navy: #0f1a2b;
+  --lgt-blue: #84dcc6;
+  --lgt-green: #a5ffd6;
+  --lgt-pink: #ffa69e;
+  --drk-pink: #ff686b;
+  --magenta: #d81e5b;
+}
+
+body {
+  background-color: var(--navy);
+  color: white;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+#navbar-container {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  background: var(--drk-navy);
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#name {
+  color: white;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#profile {
+  padding-top: 20%;
+}
+
+#name:hover {
+  color: var(--lgt-pink);
+  transition: all 0.5s ease;
+}
+
+.navbar-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-list a {
+  color: white;
+  font-size: 20px;
+}
+
+.navbar-list a:hover {
+  color: var(--lgt-green);
+  transition: all 0.25s ease;
+}
+
+.navbar-list li {
+  height: 50px;
+}
+
+.resume {
+  background-color: var(--drk-pink);
+  font-weight: 700;
+  font-size: 17px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 85px;
+}
+.resume:hover {
+  cursor: pointer;
+  background-color: var(--lgt-pink);
+  transition: all 0.5s ease;
+}
+
+section {
+  position: absolute;
+  width: 85%;
+  left: 15%;
+  height: 100vh;
+}
+
+.home-greeting {
+  margin-left: 15%;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-greeting #hello {
+  font-size: 225%;
+  color: var(--lgt-pink);
+}
+
+.home-greeting h1 {
+  font-size: 400%;
+}
+
+.home-greeting h3 {
+  font-size: 225%;
+}
+
+.home-greeting #title {
+  font-size: 110%;
+  color: var(--drk-pink);
+}
+
+/* for mobile view */
+#mobile-menu {
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
