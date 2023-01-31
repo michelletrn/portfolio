@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>michelle tran</title>
+    <title>Michelle Tran</title>
     <!-- custom stylesheet -->
     <link rel="stylesheet" href="./assets/style.css" />
     <!-- icon stylesheet -->
@@ -22,51 +22,183 @@
   </head>
   <body>
     <header id="navbar-container">
-      <img
-        id="profile"
-        src="https://via.placeholder.com/150"
-        alt="placeholder img"
-      />
-      <a href="#" id="name">michelle tran</a>
+      <a href="#" id="name">mt</a>
       <ul class="navbar-list">
         <li>
-          <a class="link" href="#home">
-            <span><i class="bx bx-home"></i></span>
-            home</a
-          >
-        </li>
-        <li>
           <a class="link" href="#about">
-            <span><i class="bx bx-user"></i></span> About</a
+            <span><!--<i class="bx bx-user"></i>--></span>about</a
           >
         </li>
         <li>
           <a class="link" href="#projects">
-            <span><i class="bx bx-spreadsheet"></i></span> Projects</a
+            <span><!--<i class="bx bx-spreadsheet">--></i></span>portfolio</a
           >
         </li>
         <li>
           <a class="link" href="#contact">
-            <span><i class="bx bx-envelope"></i></span> Contact</a
+            <span><!--<i class="bx bx-envelope">--></i></span>contact</a
           >
         </li>
-        <li>
-          <!-- this pdf does not exist, make sure to add -->
+
+        <!-- move this resume btn somewhere else -->
+        <!-- this pdf does not exist, make sure to add -->
+        <!-- <li>
           <button class="resume" onclick="location.href='assets/resume.pdf'">
             Resume
           </button>
-        </li>
+        </li> -->
+        
       </ul>
       <div class="bx bx-menu" id="mobile-menu"></div>
     </header>
-    <!-- Home section -->
-    <section class="home" id="home">
-      <div class="home-greeting">
-        <p><span id="hello">Hello, </span> my name is</p>
-        <h1>Michelle</h1>
-        <h3>I'm a <span id="title">full-stack developer.</span></h3>
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="about-content">
+        <div class="about-text">
+          <h1>Nice to meet you,</h1>
+          <h1>I am Michelle</h1>
+          <br/>
+          <p>
+            I am a <span>full-stack developer</span>
+            projected to receive a Certificate in Full Stack Development at Rutgers University.
+          </p>
+          
+          <span id="more-about">A little bit about me...</span>
+          
+          <p>
+            Prior to persuing web development, I 
+            served my community by working with major health systems in my
+            area as an RN. Though I am moving on from my previous career, I am
+            exicited to be starting this next phase of my life and am confident
+            I can use valuable soft-skills I've acquired from my previous role:
+            time-management, prioritization, critical thinking, collaboration
+            and communication as a developer!
+          </p>
+          <br />
+         <button class="contact-btn"> <a href="#contact">Get in Touch</a></button>
+        </div>
+        <div class="about-left">
+          <img
+            id="profile"
+            src="https://via.placeholder.com/300"
+            alt="placeholder img"
+          />
+          <br />
+        </div>
       </div>
     </section>
+    <!-- projects section -->
+    <section class="projects" id="projects">
+      <h2>Portfolio</h2>
+      <div class="project-container">
+        <div class="project row">
+          <img src="./assets/project-img-placeholder.png" class="project-img">
+          <div class="project-info">
+            <h3>Project Title</h3>
+            <p>T1 T2 T3</p>
+            <br/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <br/>
+            <p>
+              <a href="#" class="project-icon"><i class='bx bx-window-open'></i></a>
+              <a href="#" class="project-icon"><i class='bx bxl-github'></i></a>
+            </p>
+          </div>
+        </div>
+        <div class="project row">
+          <img src="./assets/project-img-placeholder.png" class="project-img">
+          <div class="project-info">
+            <h3>Project Title</h3>
+            <p>T1 T2 T3</p>
+            <br/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <br/>
+            <p>
+              <a href="#" class="project-icon"><i class='bx bx-window-open'></i></a>
+              <a href="#" class="project-icon"><i class='bx bxl-github'></i></a>
+            </p>
+          </div>
+        </div>
+        <div class="project row">
+          <img src="./assets/project-img-placeholder.png" class="project-img">
+          <div class="project-info">
+            <h3>Project Title</h3>
+            <p>T1 T2 T3</p>
+            <br/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <br/>
+            <p>
+              <a href="#" class="project-icon"><i class='bx bx-window-open'></i></a>
+              <a href="#" class="project-icon"><i class='bx bxl-github'></i></a>
+            </p>
+          </div>
+        </div>
+        <div class="project row">
+          <img src="./assets/project-img-placeholder.png" class="project-img">
+          <div class="project-info">
+            <h3>Project Title</h3>
+            <p>T1 T2 T3</p>
+            <br/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <br/>
+            <p>
+              <a href="#" class="project-icon"><i class='bx bx-window-open'></i></a>
+              <a href="#" class="project-icon"><i class='bx bxl-github'></i></a>
+            </p>
+          </div>
+        </div>
+         <div class="project row">
+          <img src="./assets/project-img-placeholder.png" class="project-img">
+          <div class="project-info">
+            <h3>Project Title</h3>
+            <p>T1 T2 T3</p>
+            <br/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <br/>
+            <p>
+              <a href="#" class="project-icon"><i class='bx bx-window-open'></i></a>
+              <a href="#" class="project-icon"><i class='bx bxl-github'></i></a>
+            </p>
+          </div>
+        </div>
+         <div class="project row">
+          <img src="./assets/project-img-placeholder.png" class="project-img">
+          <div class="project-info">
+            <h3>Project Title</h3>
+            <p>T1 T2 T3</p>
+            <br/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <br/>
+            <p>
+              <a href="#" class="project-icon"><i class='bx bx-window-open'></i></a>
+              <a href="#" class="project-icon"><i class='bx bxl-github'></i></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="contact-content">
+        <p>contact form here</p>
+      </div>
+    </section>
+
+    <footer>
+      <ul class="social-icons">
+        <li>
+          <a id="linkedin-icon" href="#">
+            <i class="bx bxl-linkedin" style="color: #ffffff"></i>
+          </a>
+        </li>
+        <li>
+          <a id="github-icon" href="#">
+            <i class="bx bxl-github" style="color: #ffffff"></i>
+          </a>
+        </li>
+      </ul>
+      <p>created by Michelle Tran</p>
+    </footer>
 
     <script src="./assets/script.js"></script>
   </body>
